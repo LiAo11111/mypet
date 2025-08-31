@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/shime1"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime2"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime3"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime4"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime5"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime6"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime6"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime7"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime8"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime9"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime10"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime11"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime11"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime12"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime13"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime14"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime16"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime17"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime18"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime19"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime20"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime21"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime22"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime23"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime24"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime25"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime38"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime39"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime40"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime41"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime42"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime43"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime44"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime45"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime46"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime47"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime48"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime49"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/shime50"
+        android:duration="200" />
+</animation-list>

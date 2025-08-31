@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context=".AccompanyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/accompany_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"></androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/accompany_text"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="总陪伴时长:             6.8天"
+            android:layout_height="50dp"
+            android:textColor="#fd5429"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"></TextView>
+    </RelativeLayout>
+</LinearLayout>

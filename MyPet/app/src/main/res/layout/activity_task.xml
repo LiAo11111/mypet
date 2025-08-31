@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg2"
+    tools:context=".TaskActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="任务说明"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="经过主人的引导，宠物可以飞升而达到新的境界，突破等级限制。"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="任务限制"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="没有完成宠物飞升任务的宠物，达到125级以后获得经验时经验不会增长。只有在人物飞升之后才可以接到宠物飞升任务，该任务可以让宠物突破125级的等级上限。领取条件：宠物达到110级，人宠亲密度达到"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="领取/取消"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="玩家找到东海渔村的灵兽异人，通过交谈领取该任务。"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="任务流程"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="飞升后的人物与东海渔村的灵兽异人对话，获得任务。需要找到蓬莱岛的米兰仙子，接受连续的3场战斗考验，与灵兽异人对话，得知还需要炼化羽化金丹给宠物服下，才可以飞升。收集炼化羽化金丹需要的材料，提交材料给灵兽异人，完成任务。"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="奖励"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="完成任务后，任务对应的宠物可以突破125级上限，即达到125级以后可以正常获得经验并且正常升级，同时宠物的抗性点上限与成长也会有一定的提高。"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/task_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/my_button"
+                android:text="我知道了"></TextView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
